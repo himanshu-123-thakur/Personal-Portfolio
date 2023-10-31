@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortFolio</title>
-    <link rel="stylesheet" href ="style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/d59f5cc5ab.js" crossorigin="anonymous"></script>
-    
+
 </head>
+
 <body>
     <!--  HEADER -->
     <div id="header">
         <div class="container">
             <nav>
-                <img src="log2.png" style="width: 300px;" class="logo">
+                <p class="LogoName"><a href="#contact"><span>H</span>IMANSHU</p></a>
                 <ul id="sidemenu">
-                   <li><a href="#header" style="color: aliceblue;">Home</a></li>
-                   <li><a href="#about" style="color: aliceblue;">About</a></li>
-                   <li><a href="#services" style="color: aliceblue;">Services</a></li>
-                   <li><a href="#portfolio" style="color: aliceblue;">Portfolio</a></li>
-                   <li><a href="#contact" style="color: aliceblue;">Contact me</a></li>
-                   <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                    <li><a href="#header" style="color: aliceblue;">Home</a></li>
+                    <li><a href="#about" style="color: aliceblue;">About</a></li>
+                    <li><a href="#services" style="color: aliceblue;">Certificates</a></li>
+                    <li><a href="#portfolio" style="color: aliceblue;">Projects</a></li>
+                    <li><a href="#contact" style="color: aliceblue;">Contact me</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
-            <div class = 'header-text'>
+            <div class='header-text'>
                 <p>Developer & Student</p>
                 <h1> Hi , I'm <span>Himanshu Thakur</span> <br>
                     from SRM University.</h1>
@@ -42,60 +44,64 @@
                 <div class="about-col-2">
                     <h1 class="subtitle">About me</h1>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum odio, error quia corporis ipsa commodi optio blanditiis dolorem asperiores vero officiis necessitatibus quas dolores sunt cumque, nulla sit! Tempore nam hic sequi neque voluptatum iusto, laudantium quasi labore? Accusamus, aperiam distinctio? Reprehenderit quia quo non, amet quidem ipsam fuga expedita necessitatibus error nesciunt consequuntur voluptatibus similique possimus animi! Itaque suscipit consequatur, sapiente, temporibus illo inventore rem provident doloribus dolorum aperiam quisquam laboriosam iure nulla mollitia est tempore iste ratione? Sed magni quas 
+                        I am a highly motivated and aspiring 4th year Computer Science and Engineering student at SRM
+                        University with a strong passion for technology and problem-solving. My academic journey has
+                        equipped me with a solid foundation in computer science principles, programming languages, and
+                        software development methodologies. I am eager to apply my knowledge and skills to real-world
+                        challenges and contribute to innovative solutions.
                     </p>
                     <div class="tab-title">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
-                    </div>   
-                    <div class="tab-contents" id="skills">
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>Web Developer</span>
-                            <br> Developing Web pages</li>
+                            <li>C++</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Machine Learning</li>
+                            <li>Data Structures</li>
+                            <li>Problem Solving</li>
+                            <li>Design Thinking</li>
 
-                            <li><span>DSA</span>
-                                <br> Problem Solving Data Structures and algorithms</li>
-
-                                <li><span>Machine learning</span>
-                                    <br> Data mining , Analysing</li>
-
-                            
                         </ul>
                     </div>
 
-                    <div class="tab-contents active-tab" id="experience">
-                        <ul>
-                            <li><span>Web Developer</span>
-                            <br> Developing Web pages</li>
-
-                            <li><span>DSA</span>
-                            <br> Problem Solving Data Structures and algorithms</li>
-
-                            <li><span>Machine learning</span>
-                            <br> Data mining , Analysing</li>
-
-                            
-                        </ul>
-                    </div> 
-
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>Web Developer</span>
-                            <br> Developing Web pages</li>
+                            <li><span>B.Tech in Computer Science and Buisness Systems</span>
+                                <br> SRM IST Kattankulathur, 603203
+                                <br> CGPA - 9.09
+                            </li>
 
-                            <li><span>DSA</span>
-                            <br> Problem Solving Data Structures and algorithms</li>
+                            <li><span>Class XII CBSE</span>
+                                <br> Sacred Heart Convent School ,Shimla
+                                <br> Percentage - 94.6%
+                            </li>
 
-                            <li><span>Machine learning</span>
-                            <br> Data mining , Analysing</li>
+                            <li><span>Class X CBSE</span>
+                                <br> Sacred Heart Convent School ,Shimla
+                                <br> Percentage - 86.6%
+                            </li>
 
-                            
+
                         </ul>
-                    </div> 
+                    </div>
+
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li><span>SRM IST Kattankulathur</span>
+                                <br> Academic Scholarship
+                                <br> 2020 - 2021
+                            </li>
+
+
+                        </ul>
+                    </div>
                 </div>
 
-                
+
             </div>
         </div>
     </div>
@@ -104,27 +110,34 @@
     <!-- ------------------------------SERVICES----------------------------- -->
     <div id="services">
         <div class="container">
-            <h1 class="sub-title">My Services</h1>
+            <h1 class="sub-title">My Certificates</h1>
             <div class="services-list">
-        
+
                 <div>
                     <i class="fa-solid fa-database"></i>
-                    <h1>Data Analyst</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime vel sit cumque ullam nesciunt quo necessitatibus accusamus voluptates itaque deserunt repellat libero illo, amet quam rerum, excepturi doloribus, totam blanditiis placeat. Assumenda natus exercitationem nobis maxime fugiat voluptas esse?</p>
-                    <a href="#">Learn more</a>
+                    <h1>C++ programming</h1>
+                    <p>UDEMY<br>Dec 2022</p>
                 </div>
                 <div>
                     <i class="fa-solid fa-lightbulb"></i>
-                    <h1>DSA</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime vel sit cumque ullam nesciunt quo necessitatibus accusamus voluptates itaque deserunt repellat libero illo, amet quam rerum, excepturi doloribus, totam blanditiis placeat. Assumenda natus exercitationem nobis maxime fugiat voluptas esse?</p>
-                    <a href="#">Learn more</a>
+                    <h1>Problem-Solving (Intermediate)</h1>
+                    <p>HackerRank<br>Sep 2023</p>
 
                 </div>
                 <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h1>SQL (Intermediate)</h1>
+                    <p>HackerRank<br>Sep 2023</p>
+                </div>
+                <div>
                     <i class="fa-solid fa-lightbulb"></i>
-                    <h1>Web Developer</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime vel sit cumque ullam nesciunt quo necessitatibus accusamus voluptates itaque deserunt repellat libero illo, amet quam rerum, excepturi doloribus, totam blanditiis placeat. Assumenda natus exercitationem nobis maxime fugiat voluptas esse?</p>
-                    <a href="#">Learn more</a>
+                    <h1>Machine Learning</h1>
+                    <p>UDEMY<br>Oct 2022</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h1>Internet Of Things</h1>
+                    <p>SRM University<br>Aug 2023</p>
                 </div>
             </div>
         </div>
@@ -141,54 +154,54 @@
     <div id="portfolio">
         <div class="container">
             <div class="subtitle">
-                <h1>My Work</h1>
+                <h1>My Projects</h1>
                 <div class="work-list">
                     <div class="work"><img src="download.jfif" alt="">
                         <div class="layer">
-                            <h3>Web Page - Portfolio</h3>
-                            <p>The web page explains about me my goals , ambitions , experiences.
-                                Can be viewed on my github profile too.
+                            <h3>ENGAGEMENT DETECTION DURING ONLINE MEETS</h3>
+                            <p>This project aims to develop a cutting-edge solution for real-time engagement detection
+                                during online meetings. We employ Convolutional Neural Networks (CNNs) to analyze video
+                                and audio data, providing valuable insights into participants' attentiveness and
+                                involvement.
                             </p>
-                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
 
                     <div class="work"><img src="work2.jfif" alt="">
                         <div class="layer">
-                            <h3>Data Analyst</h3>
-                            <p>The web page explains about me my goals , ambitions , experiences.
-                                Can be viewed on my github profile too.
+                            <h3>CAB MANAGEMENT SYSTEM</h3>
+                            <p>A Cab Management System in PHP is a software application that helps manage and streamline
+                                the operations of a taxi or cab service.
                             </p>
-                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
 
                     <div class="work"><img src="img.png" alt="">
                         <div class="layer">
-                            <h3>Problem Solving</h3>
-                            <p style="font-size: 13px;">The web page explains about me my goals , ambitions , experiences.
-                                Can be viewed on my github profile too.
+                            <h3>SUDOKU SOLVER</h3>
+                            <p>Sudoku is a logic-based puzzle game that requires you to combine numbers to come
+                                completely fill the board. The objective is for you to fill a 9x9 grid so that each
+                                column, each row, and each of the nine 3x3 sub grids that compose the grid contain all
+                                the digits from 1–9.
                             </p>
-                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
                         </div>
                     </div>
 
-                  
+
                 </div>
-                <a href="#" class="btn">See More</a>
             </div>
         </div>
     </div>
 
 
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
     <!---------------------------------------------------------------- CONTACT  ----------------------------->
 
     <div id="contact">
@@ -199,104 +212,107 @@
                     <p> <i class="fa-solid fa-envelope"></i>himanthakur123@gmail.com</p>
                     <p> <i class="fa-solid fa-mobile"></i>9817658063</p>
                     <div class="social-icons">
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/himanshu-thakur-123abc/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a target="_blank" href="https://github.com/himanshu-123-thakur"><i
+                                class="fa-brands fa-github"></i></a>
 
                     </div>
-                    <a href="https://drive.google.com/file/d/1Pgql7aVCSCxldJ0Ak3zegHqv3TB-rM4B/view?usp=sharing" target="_blank" download class="btn btn2">Download CV</a>
+                    <a href="https://www.canva.com/design/DAFuOcjjsiI/EGgVkcCoyQz2isxX-K1ZMA/edit?utm_content=DAFuOcjjsiI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                        target=" _blank" class="btn btn2">Resume</a>
                 </div>
 
                 <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-                <span id="msg"></span>
-               </div>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
             </div>
         </div>
 
         <div class="copyright">
-            <p>Copyright © Himanshu, Made by me on VS Code <i class="fa-solid fa-heart"></i></p>
+            <p>Copyright ©Himanshu, Made by me on VS Code <i class="fa-solid fa-heart"></i></p>
         </div>
     </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script>
 
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
 
-        function opentab(tabname){
-            for(tablink of tablinks){
+        function opentab(tabname) {
+            for (tablink of tablinks) {
                 tablink.classList.remove("active-link");
 
             }
-            for(tabcontent of tabcontents){
+            for (tabcontent of tabcontents) {
                 tabcontent.classList.remove("active-tab");
-                
+
             }
 
             event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
-            
+
         }
     </script>
 
     <script>
         var sidemenu = document.getElementById("sidemenu");
-        function openmenu(){
-            sidemenu.style.right="0";
+        function openmenu() {
+            sidemenu.style.right = "0";
 
         }
-        function closemenu(){
-            sidemenu.style.right="-200px";
-            
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+
         }
     </script>
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbyoT9Q0l8M0Gm7EFTtDL0nWm4kH21QJ-puI11X-Yrw0INyOktDk7BX9pTyp_uxAR3DTlQ/exec'
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxe3cHCoUL7spLQSYkDJ850ZmhcivIgopW62fPYhBxYsfmjdSPnTMTqOa_GiB_iX3Bc/exec'
         const form = document.forms['submit-to-google-sheet']
         const msg = document.getElementById("msg")
+
         form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response =>{
-                msg.innerHTML = "Message Sent Successfully"
-                setTimeout(function(){
-                    msg.innerHTML=""
-                },5000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully!"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
         })
-      </script>
+    </script>
 </body>
+
 </html>
